@@ -1,0 +1,5 @@
+# _config.yml
+title: Postmortem Template
+description: 'Repository for Postmortem documentation'
+theme: minima
+markdown: kramdown
