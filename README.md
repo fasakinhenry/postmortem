@@ -1,6 +1,9 @@
 # postmortem-template
 
-This is a postmortem template inspired by atlassian for document incident reports and taking actions
+This is a postmortem template inspired by atlassian for document incident reports and taking actions.
+
+> [!TIP]
+> Just copy and make use of the template and replace the values in the curly braces with their original values
 
 
 ```
