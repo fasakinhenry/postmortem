@@ -2,6 +2,8 @@
 
 This is a postmortem template inspired by atlassian for document incident reports and taking actions.
 
+> Check out a postmortem template written for [Consolve App](https://consolve.vercel.app) here: [Postmortem Template](/postmortem-example.md)
+
 > [!TIP]
 > Just copy and make use of the template and replace the values in the curly braces with their original values
 
