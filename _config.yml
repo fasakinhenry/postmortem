@@ -2,4 +2,8 @@ title: Postmortem Template
 description: 'Repository for Postmortem documentation'
 theme: minima
 markdown: kramdown
-permalink: pretty
+minima:
+  skin: dark
+  social_links:
+    github: https://github.com/fasakinhenry
+    twitter: https://x.com/henqsoft
