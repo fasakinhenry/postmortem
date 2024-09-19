@@ -1,6 +1,22 @@
-# postmortem-template
+# Postmortem Template Repository
 
-This is a postmortem template inspired by atlassian for document incident reports and taking actions.
+This is a postmortem template inspired by atlassian for document incident reports and taking actions. It is configured to work with GitHub Pages and Jekyll, so your postmortem can be viewed as a static webpage.
+
+## How to Use
+
+1. Fork this repository or create a new repository from this template.
+2. Create a new postmortem inside the `_posts/` folder following the naming convention `YYYY-MM-DD-title.md`.
+3. Customize the template to your needs.
+
+## Template Structure
+
+- **_layouts/default.html**: The default layout for all postmortem pages.
+- **_posts/**: Store your postmortem Markdown files here.
+
+## View Postmortem Online
+
+Once you push your changes, the postmortem will be available at: `https://<your-username>.github.io/<repository-name>/`
+
 
 > Check out a postmortem template written for [Consolve App](https://consolve.vercel.app) here: [Postmortem Template](/postmortem-example.md)
 
