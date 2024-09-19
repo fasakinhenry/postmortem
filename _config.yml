@@ -1,9 +1,17 @@
-title: Postmortem Template
-description: 'Repository for Postmortem documentation'
-theme: minima
-markdown: kramdown
-minima:
-  skin: dark
-  social_links:
-    github: https://github.com/fasakinhenry
-    twitter: https://x.com/henqsoft
+title: My Cool Project
+description: A postmortem analysis
+theme: minimal-mistakes-jekyll
+url: "https://fasakinhenry.github.io" # Replace with your GitHub Pages URL
+permalink: pretty
+
+# Optional settings
+author:
+  name: "Henry"
+  email: "fasakinhenry@gmail.com"
+
+# Minimal Mistakes settings
+minimal_mistakes:
+  # Use the "single" layout for a single post
+  layout: single
+  # Custom logo URL
+  logo: /assets/images/logo.png
