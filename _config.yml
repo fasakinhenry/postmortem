@@ -1,6 +1,6 @@
 title: 'My Cool Project'
 description: 'A postmortem analysis'
-theme: minimal-mistakes-jekyll
+remote_theme: "mmistakes/minimal-mistakes"
 url: 'https://fasakinhenry.github.io' # Replace with your GitHub Pages URL
 baseurl: '' # Leave this empty for GitHub Pages, unless you have a subpath
 permalink: pretty
