@@ -1,13 +1,14 @@
-title: My Cool Project
-description: A postmortem analysis
+title: 'My Cool Project'
+description: 'A postmortem analysis'
 theme: minimal-mistakes-jekyll
-url: "https://fasakinhenry.github.io" # Replace with your GitHub Pages URL
+url: 'https://fasakinhenry.github.io' # Replace with your GitHub Pages URL
+baseurl: '' # Leave this empty for GitHub Pages, unless you have a subpath
 permalink: pretty
 
 # Optional settings
 author:
-  name: "Henry"
-  email: "fasakinhenry@gmail.com"
+  name: 'Henry'
+  email: 'fasakinhenry@gmail.com'
 
 # Minimal Mistakes settings
 minimal_mistakes:
@@ -15,3 +16,13 @@ minimal_mistakes:
   layout: single
   # Custom logo URL
   logo: /assets/images/logo.png
+
+# Plugins
+plugins:
+  - jekyll-remote-theme # Required to install Minimal Mistakes from GitHub Pages
+
+# GitHub Pages settings
+github:
+  is_project_page: true
+  url: 'https://fasakinhenry.github.io'
+  repository: 'fasakinhenry/postmortem' # Replace with your repo name
