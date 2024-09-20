@@ -1,6 +1,6 @@
 title: 'My Cool Project'
 description: 'A postmortem analysis'
-remote_theme: "mmistakes/minimal-mistakes"
+remote_theme: 'mmistakes/minimal-mistakes'
 url: 'https://fasakinhenry.github.io' # Replace with your GitHub Pages URL
 baseurl: '' # Leave this empty for GitHub Pages, unless you have a subpath
 permalink: pretty
@@ -20,6 +20,7 @@ minimal_mistakes:
 # Plugins
 plugins:
   - jekyll-remote-theme # Required to install Minimal Mistakes from GitHub Pages
+  - jekyll-include-cache # Include this line to add the include cache plugin
 
 # GitHub Pages settings
 github:
