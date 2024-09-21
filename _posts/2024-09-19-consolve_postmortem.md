@@ -1,10 +1,22 @@
 ---
-layout: default
-title: Incident Postmortem - API Outage
+layout: single
+title: "Incident Postmortem - API Outage"
 date: 2024-09-20
-categories: [example, sample]
-tags: [test, sample]
+categories: 
+    - example
+    - sample
+tags: 
+    - test
+    - sample
 excerpt: "This is a sample post to demonstrate the Minimal Mistakes theme."
+author_profile: true
+read_time: true
+comments: true
+share: true
+related: true
+toc: true
+toc_label: "Table of Contents"
+toc_icon: "cog"
 ---
 
 ## Incident Summary
