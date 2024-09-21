@@ -1,10 +1,9 @@
 ---
 layout: splash
 title: "Postmortem Dashboard"
-header:
-  overlay_image: /assets/images/hero-image.jpg  # Make sure the image is uploaded
-  overlay_filter: 0.5  # Optional: Darkens the image for better text readability
-  caption: "Explore Incident Reports and Lessons Learned"
+classes:
+  - landing
+  - dark-theme
 ---
 
 # Welcome to the Postmortem Dashboard
