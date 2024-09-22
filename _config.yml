@@ -58,34 +58,34 @@ plugins:
   - jekyll-include-cache
 
 author:
-  name: 'First Lastname'
-  avatar: '/assets/images/hero-image.png'
-  bio: 'My awesome biography constrained to a sentence or two goes here.'
+  name: 'Henry Fasakin'
+  avatar: 'https://www.github.com/fasakinhenry.png'
+  bio: 'Software Engineer, Full stack developer, and a leader based in Nigeria with over 4 years of experience working mostly with startups and scale-ups. Proficient with bash, C, Javascript and Python.'
   links:
     - label: 'Website'
       icon: 'fas fa-fw fa-link'
-      url: 'https://'
+      url: 'https://fasakinhenry.xyz'
     - label: 'Twitter'
       icon: 'fab fa-fw fa-twitter-square'
-      url: 'https://twitter.com/'
+      url: 'https://x.com/henqsoft'
     - label: 'GitHub'
       icon: 'fab fa-fw fa-github'
-      url: 'https://github.com/'
+      url: 'https://github.com/fasakinhenry'
     - label: 'Instagram'
       icon: 'fab fa-fw fa-instagram'
-      url: 'https://instagram.com/'
+      url: 'https://instagram.com/henqsoft'
 
 footer:
   links:
     - label: 'Twitter'
       icon: 'fab fa-fw fa-twitter-square'
-      url: 'https://twitter.com/'
+      url: 'https://x.com/henqsoft'
     - label: 'GitHub'
       icon: 'fab fa-fw fa-github'
-      url: 'https://github.com/'
+      url: 'https://github.com/fasakinhenry'
     - label: 'Instagram'
       icon: 'fab fa-fw fa-instagram'
-      url: 'https://instagram.com/'
+      url: 'https://instagram.com/henqsoft'
 
 defaults:
   # _posts
