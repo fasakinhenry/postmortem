@@ -84,6 +84,9 @@ footer:
     - label: 'Instagram'
       icon: 'fab fa-fw fa-instagram'
       url: 'https://instagram.com/henqsoft'
+    - label: 'Facebook'
+      icon: 'fab fa-fw fa-facebook'
+      url: 'https://facebook.com/henry.fasakin.7'
 
 defaults:
   # _posts
