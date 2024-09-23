@@ -21,22 +21,26 @@ search: false
   font-style: normal;
 }
 
+$serif: 'Degular-Regular', serif !default;
+$sans-serif: 'Degular-Regular', sans-serif !default;
+$monospace: Monaco, Consolas, 'Lucida Console', monospace !default;
+$global-font-family: 'Degular-Regular', sans-serif !default;
+$header-font-family: 'Degular-Bold', sans-serif !default;
+
+// Import theme styles after defining custom styles
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}";
+@import 'minimal-mistakes'; // main partials
+
+body {
+  font-family: 'Degular-Regular', sans-serif !important;
+}
+
 h1,
 h2,
 h3,
 h4,
 h5,
 h6 {
-  font-family: 'Degular-Bold' !important;
-  font-weight: bold; /* Degular-Bold */
-  font-style: normal;
+  font-family: 'Degular-Bold', sans-serif !important;
+  font-weight: bold;
 }
-
-$serif: 'Degular-Regular' !default;
-$sans-serif: 'Degular-Regular' !default;
-$monospace: Monaco, Consolas, 'Lucida Console', monospace !default;
-$global-font-family: 'Degular-Bold' !default;
-$header-font-family: 'Degular-Bold' !default;
-
-@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
-@import 'minimal-mistakes'; // main partials
