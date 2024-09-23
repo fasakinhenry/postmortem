@@ -35,6 +35,14 @@ include:
   - _pages
   - assets
 
+# Style settings
+sass:
+  style: compressed
+
+assets:
+  sources:
+    - assets/css/main.scss
+
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
