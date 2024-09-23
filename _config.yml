@@ -55,6 +55,12 @@ plugins:
   - jemoji
   - jekyll-include-cache
 
+analytics:
+  provider: "google-gtag"
+  google:
+    tracking_id: "G-DBWQ4PD789"
+    anonymize_ip: false # default
+
 author:
   name: 'Henry Fasakin'
   avatar: 'https://www.github.com/fasakinhenry.png'
