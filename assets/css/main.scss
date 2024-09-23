@@ -27,13 +27,13 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Degular-Bold', sans-serif !important;
+  font-family: 'Degular-Bold' !important;
   font-weight: bold; /* Degular-Bold */
   font-style: normal;
 }
 
-$serif: 'Degular-Regular', sans-serif !default;
-$sans-serif: 'Degular-Regular', sans-serif !default;
+$serif: 'Degular-Regular' !default;
+$sans-serif: 'Degular-Regular' !default;
 $monospace: Monaco, Consolas, 'Lucida Console', monospace !default;
 $global-font-family: 'Degular-Bold';
 $header-font-family: 'Degular-Bold';
