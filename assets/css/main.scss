@@ -14,7 +14,7 @@ search: false
 }
 
 @font-face {
-  font-family: 'Degular';
+  font-family: 'Degular-Bold';
   src: url('/assets/fonts/Degular-Bold.woff2') format('woff2'),
     url('/assets/fonts/Degular-Bold.woff') format('woff');
   font-weight: bold;
@@ -27,7 +27,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Degular', sans-serif;
+  font-family: 'Degular-Bold', sans-serif;
   font-weight: bold; /* Degular-Bold */
   font-style: normal;
 }
