@@ -1,0 +1,33 @@
+@font-face {
+  font-family: 'Degular';
+  src: url('/assets/fonts/Degular-Regular.woff2') format('woff2'),
+    url('/assets/fonts/Degular-Regular.woff') format('woff'),
+    url('/assets/fonts/Degular-Regular.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Degular';
+  src: url('/assets/fonts/Degular-Bold.woff2') format('woff2'),
+    url('/assets/fonts/Degular-Bold.woff') format('woff'),
+    url('/assets/fonts/Degular-Bold.otf') format('opentype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* Apply Degular font to the entire body */
+body {
+  font-family: 'Degular', sans-serif;
+}
+
+/* Apply Degular Bold to headings */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Degular', sans-serif;
+  font-weight: bold;
+}
