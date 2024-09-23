@@ -35,6 +35,8 @@ h6 {
 $serif: 'Degular-Regular', sans-serif !default;
 $sans-serif: 'Degular-Regular', sans-serif !default;
 $monospace: Monaco, Consolas, 'Lucida Console', monospace !default;
+$global-font-family: 'Degular-Bold', sans-serif;
+$header-font-family: 'Degular-Bold', sans-serif;
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import 'minimal-mistakes'; // main partials
