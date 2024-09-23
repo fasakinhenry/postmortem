@@ -21,6 +21,17 @@ search: false
   font-style: normal;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Degular', sans-serif;
+  font-weight: bold; /* Degular-Bold */
+  font-style: normal;
+}
+
 $serif: 'Degular', sans-serif !default;
 $sans-serif: 'Degular', sans-serif !default;
 $monospace: Monaco, Consolas, 'Lucida Console', monospace !default;
