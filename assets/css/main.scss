@@ -6,7 +6,7 @@ search: false
 @charset "utf-8";
 
 @font-face {
-  font-family: 'Degular';
+  font-family: 'Degular-Regular';
   src: url('/assets/fonts/Degular-Regular.woff2') format('woff2'),
     url('/assets/fonts/Degular-Regular.woff') format('woff');
   font-weight: normal;
@@ -32,8 +32,8 @@ h6 {
   font-style: normal;
 }
 
-$serif: 'Degular', sans-serif !default;
-$sans-serif: 'Degular', sans-serif !default;
+$serif: 'Degular-Regular', sans-serif !default;
+$sans-serif: 'Degular-Regular', sans-serif !default;
 $monospace: Monaco, Consolas, 'Lucida Console', monospace !default;
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
